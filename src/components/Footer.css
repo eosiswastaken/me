@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+.footer {
+    text-align: center;
+}
+
+.more {
+    font-family: 'Inter';
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #242424;
+    color: white;
+    font-weight:600;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tilde {
+    color: #5da8e5;
+}
+
+.dollar {
+    color: #77a162
+}
+
+.text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: colored 10s infinite linear;
+    background-image: -webkit-linear-gradient(90deg, #f35626, #feab3a);
+  }
+  @-webkit-keyframes colored {
+    from {
+      -webkit-filter: hue-rotate(0deg) brightness(70%);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg) brightness(70%);
+    }
+  }
+
+.more:hover {
+    filter: brightness(80%);
+    transition: all 0.3s;
+}
