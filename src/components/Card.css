@@ -20,25 +20,51 @@ body {
     font-family: 'Nanum Pen Script';
     font-size: 130px;
     margin-bottom: 0px;
+    margin-top: 35px;
 }
 
 .about {
     margin-top: 0px;
     color:rgba(255, 255, 255,0.3);
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .personnal {
+    margin-top: 0px;
     color:rgba(255, 255, 255,0.2);
     font-size: 25px;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
 }
 
 .email {
     color:rgba(255, 255, 255,0.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.personnal .flag {
+    width: 25px;
+    vertical-align: middle;
+    margin-top: -6px;
 }
 
 .flag {
-    width: 23px;
+    filter: brightness(60%);
+}
+.logo {
+    width: 35px;
+}
+
+.socials > img {
+    padding: 1px;
+}
+
+.socials {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logo {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(0%) saturate(0%) hue-rotate(182deg) brightness(95%) contrast(93%);
 }

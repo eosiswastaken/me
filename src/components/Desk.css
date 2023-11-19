@@ -1,0 +1,13 @@
+.desk {
+    text-align: center;
+}
+
+.obj {
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
+    background-color: #0b0b0b;
+    justify-content: center;
+}
