@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+@import url('https://fonts.googleapis.com/css?family=Nanum Pen Script');
+
+body {
+    font-family: 'Outfit';
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card > * {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.name {
+    color: #dfa00b;
+    font-family: 'Nanum Pen Script';
+    font-size: 130px;
+    margin-bottom: 0px;
+}
+
+.about {
+    margin-top: 0px;
+    color:rgba(255, 255, 255,0.3);
+    font-size: 30px;
+}
+
+.personnal {
+    color:rgba(255, 255, 255,0.2);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    color:rgba(255, 255, 255,0.1);
+}
+
+.flag {
+    width: 23px;
+}
