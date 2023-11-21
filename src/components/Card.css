@@ -51,13 +51,13 @@ body {
 }
 
 .flag {
-    filter: brightness(60%);
+    filter: brightness(70%);
 }
 .logo {
     width: 35px;
 }
 
-.socials > img {
+.socials > a > img {
     padding: 1px;
 }
 

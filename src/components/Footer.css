@@ -5,15 +5,16 @@
 
 .more {
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #242424;
+    background-color: #0e0e0e;
     color: white;
     font-weight:600;
     padding: 10px;
     display: inline-block;
     margin-top: 75px;
+    transition: all 0.3s;
 }
 
 a {
@@ -21,11 +22,11 @@ a {
 }   
 
 .tilde {
-    color: #5da8e5;
+    color: #dfa00b;
 }
 
 .dollar {
-    color: #77a162
+    color: #dfa00b;
 }
 
 .text {
@@ -44,6 +45,6 @@ a {
   }
 
 .more:hover {
-    filter: brightness(80%);
+    background-color: #0c0c0c;
     transition: all 0.3s;
 }
